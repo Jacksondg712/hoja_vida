@@ -1,0 +1,185 @@
+body{
+    background-color: #E5E5E5;
+    font-family: "Montserrat", "arial";
+}
+
+/*  */
+/* tamaño del formato de la pagina con las letras */
+
+.contenedor-principal{
+    display:flex;
+    flex-direction: row-reverse;
+    background-color: white;
+    width: 1200px;
+    margin: 40px auto;
+    
+}
+
+
+
+/* espacio entre lineas de lista */
+li{
+    line-height: 24px; 
+}
+
+
+/* ----------------------------------------------------------------------- */
+
+/* informacion general */
+.informacion_general{
+    padding: 100px 88px;
+}
+/* descripcion */
+.descripcion-profesion{
+
+    font-size: 14px;
+    font-weight: 700;
+}
+.titulo_nombre{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.descripcion_personal{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    width: 400px;
+}
+
+/* secciones principales */
+.titulo_seccion_principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
+/* seccion proyectos */
+.lista_proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    list-style: none;
+}
+.enlace_proyectos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.puntos{
+    width: 118px;
+    height: 0px;
+    left: 730.5px;
+    top: 464px;
+    color: #595959;
+
+}
+.parentesis{
+    color:#1E2939;
+}
+.experiencia{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+.sub_experiencia{
+    color:#FB6D3A;
+}
+.fechas{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+.listas{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.nombre_uni{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color:#FB6D3A;
+}
+
+
+
+
+
+/* ----------------------------------------------------------------------- */
+/* infromacion lateral (foto) */
+.informacion-secundaria{
+    
+    padding: 40px 0;
+    background-color: #1E2939;
+}
+
+.Titulo_lateral{
+ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin-top: 50px;
+}
+
+.contactos, .habilidades-tecnicas, .soft-skills {
+
+    margin-left: 40px;
+
+}
+
+
+
+/* Seccion contactos */
+.tipo_contacto{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contacto_info{
+    color: rgb(177, 177, 177);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+
+/* seccion de lista */
+.lista_lateral{
+    padding: 0px;
+    padding-left: 20px;
+}
+
+.lista_lateral>li{
+    color: #FB6D3A;
+}
+.elemento_lista_lateral{
+    color:#FFFFFF;
+}
+
+.images{
+    margin-left: 55px;
+}
