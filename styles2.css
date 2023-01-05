@@ -157,6 +157,10 @@ li{
     margin-right: 5px;
 }
 
+.titulo_profesion{
+    color: #FB6D3A;
+}
+
 .contacto_info{
     color: rgb(177, 177, 177);
     font-style: normal;
