@@ -19,11 +19,14 @@ body{
 
 /* espacio entre lineas de lista */
 li{
-    line-height: 24px; 
+    line-height: 24px;
 }
 
 .list{
     text-decoration: none;
+    &:hover{
+        color: #FB6D3A;
+    }
 }
 
 /* ----------------------------------------------------------------------- */
